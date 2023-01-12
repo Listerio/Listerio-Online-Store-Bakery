@@ -1,0 +1,79 @@
+* {
+    font-family: 'Vidaloka', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 200px 150px 0 150px;
+}
+.loginContainer h2{
+    color: white;
+    font-size: 40px;
+}
+#cap{
+    color:brown;
+}
+.loginContainer input{
+    text-transform: none;
+    margin-top: 20px;
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: wheat;
+    color: brown;
+}
+.loginContainer input:hover{
+    border-bottom: 1px solid black;
+}
+
+.loginContainer #formContainer{
+    width: 50%;
+    height: 50%;
+}
+#login{
+    margin-top: 20px;
+    width: 30%;
+    max-width: 160px;
+    min-width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: wheat;
+
+}
+#login:hover{
+    transform: scale(1.03);
+}
+
+.loginContainer a{
+    text-transform: lowercase;
+    font-size: 15px;
+    color: black;
+}
+.logOut{
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 25px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.logOut:hover{
+    background-color: red;
+}
